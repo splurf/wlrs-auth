@@ -1,4 +1,4 @@
-use argon2::{password_hash::SaltString, Argon2, PasswordHash, PasswordHasher};
+use argon2::{Argon2, PasswordHash, PasswordHasher, password_hash::SaltString};
 
 #[cfg(feature = "build")]
 use rand_core::OsRng;
